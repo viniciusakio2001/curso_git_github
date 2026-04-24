@@ -3,5 +3,11 @@ cd -> move entre diretório
 pwd -> mostra diretório atual
 mkdir -> cria uma pasta
 cat -> abre o conteúdo do arquivo
-git init -> defini a pasta especial
-
+git init -> defini a pasta especial(cria repositório)
+ls -a -> mostra pastas e pastas ocultas
+git status -> mostrar como está o diretório
+git add nome_arquivo -> prepara um arquivo para publicação de versão
+git commit -m "documentação versionamento" -> publicar a versão
+git config --global user.email -> saber qual usuário está configurado no git
+git config --global user.email "vinihada2001@gmail.com" -> definir o e-mail no git
+git config --global user.name "viniciusakio2001" -> definir o nome no git
