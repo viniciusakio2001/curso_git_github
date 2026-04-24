@@ -1,0 +1,7 @@
+ls -> lista arquivos
+cd -> move entre diretório
+pwd -> mostra diretório atual
+mkdir -> cria uma pasta
+cat -> abre o conteúdo do arquivo
+git init -> defini a pasta especial
+
