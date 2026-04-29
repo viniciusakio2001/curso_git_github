@@ -7,8 +7,10 @@ git init -> defini a pasta especial(cria repositório) na pasta atual
 ls -a -> mostra pastas e pastas ocultas
 git status -> mostrar como está o diretório
 git add nome_arquivo -> prepara um arquivo para publicação de versão
+git add . -> prepara todos os arquivos da pasta
 git commit -m "documentação versionamento" -> publicar a versão
 git config --global user.email -> saber qual usuário está configurado no git
 git config --global user.email "vinihada2001@gmail.com" -> definir o e-mail no git
 git config --global user.name "viniciusakio2001" -> definir o nome no git
 nano nome_arquivo -> cria um arquivo onde poderemos escrever dentro do terminal
+git log -> consultar todos os commits
