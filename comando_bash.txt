@@ -16,8 +16,8 @@ nano nome_arquivo -> cria um arquivo onde poderemos escrever dentro do terminal
 git log -> consultar todos os commits
 git diff nomearquivo -> para saber o  que foi alterado no estado atual e no estado anterior
 git reset nomearquivo -> remove o arquivo do stage(unstage) para não ser comitado
-git checkout -b nome -> criar uma branch utilizando a cópia da main e move o estado atual para a branch criada
-git branch -> Lista as branchs(destaca atual) presente no projeto
-git checkout nomebranch -> mudar a branch do projeto 
-git merge nomebranch(origem) -> trazer as informações da branch origem para branch do estado atual
-git  branch -d nomebranch -> deleta a branch mencionada(o estado atual precisa ser diferente da branch que será deletada)
+git checkout -b nomebranch -> cria uma branch nova copiando a branch do estado atual e move o estado para a branch criada
+git branch -> lista as branchs do projeto e destaca a branch do estado atual
+git checkout nomebranch -> move o estado da branch para a branch mencionada
+git merge nomebranch(origem) -> transfere os novos arquivos e novas alterações do branch de origem para o branch do estado atual
+git branch -d nomebranch -> deleta a branch mencionada
