@@ -15,3 +15,4 @@ git config --global user.name "viniciusakio2001" -> definir o nome no git
 nano nome_arquivo -> cria um arquivo onde poderemos escrever dentro do terminal
 git log -> consultar todos os commits
 git diff nomearquivo -> para saber o  que foi alterado no estado atual e no estado anterior
+git reset nomearquivo -> remove o arquivo do stage(unstage) para não ser comitado
