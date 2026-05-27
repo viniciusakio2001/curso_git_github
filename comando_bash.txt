@@ -24,5 +24,6 @@ git branch -d nomebranch -> deleta a branch mencionada
 git remote add origin urlgithub > associa um repositorio local a um repositorio remoto hospedado no github
 git push -u origin main -> envia os commits para o repositorio remoto e cria o vinculo com o repositorio remoto
 git push origin main -> envia commits para o repositorio remoto do github
+git remote -v -> para saber qual repositorio estou conectado
 
 
